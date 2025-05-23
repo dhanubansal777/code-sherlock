@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+  }
+  .container {
+    max-width: 600px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  form {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2em;
+  }
+  input, button {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  #profile img {
+    border-radius: 50%;
+    width: 100px;
+  }
+  .repo-card {
+    background: #eaeaea;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .repo-card:hover {
+    background: #d4d4d4;
+  }
+  @media (max-width: 600px) {
+    .container { padding: 1em; }
+    #profile img { width: 70px; }
+  }
+  
